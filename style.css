@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* section bir */
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: black;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.head-btn button {
+    /* Rectangle 2 */
+    width: 192px;
+    height: 82px;
+    background: #F1A900;
+    border: none;
+    /* PLAY NOW */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* section ikki */
+
+.computer {
+    width: 235px;
+    height: 73px;
+    background: #F1A900;
+    /* PC */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.console {
+    width: 235px;
+    height: 73px;
+    background: #000;
+    /* PC */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.game-parent {
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+#bir {
+    background: url('img/image\ 5.svg') no-repeat;
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+.erangel {
+    /* Rectangle 8 */
+    margin: 0 auto;
+    width: 966px;
+    height: 202px;
+    background: rgba(241, 169, 0, 0.33);
+    border-radius: 10px;
+    /* ERANGEL CLASSIC RETURNS */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#bir{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* section ikki */
+
+
+.header-content{
+color: white;
+background: #222222;    
+display: flex;
+justify-content: center;
+gap: 100px;
+padding-top: 15px;
+padding-bottom: 13px;
+}
+
+
+.title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+#mode{
+    background-color: #222222;
+    color: #FFFFFF;
+    border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+#lang{
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/* section uch */
+
+footer {
+    background-color: black;
+}
